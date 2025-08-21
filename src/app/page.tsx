@@ -4,7 +4,6 @@ import AnchorLink from '@/components/common/AnchorLink';
 import FooterLogo from '@/components/footer/FooterLogo';
 import GradientFooter from '@/components/footer/GradientFooter';
 import SimpleNavbar from '@/components/navigation/SimpleNavbar';
-import { LucideIcon } from 'lucide-react';
 
 const items = [
   { title: 'What is the product?', content: 'This is a brief description of the product.' },
@@ -24,7 +23,7 @@ export default function Home() {
         <AnchorLink href="#about" className="mt-5 text-white underline">Learn More</AnchorLink>
       </section>
       <section id="about" className="py-10">
-        <ImageAccordion items={items} imageSrc="/images/about.jpg" imageAlt="About Us Image" title="Frequently Asked Questions" />
+        <ImageAccordion items={items} imageSrc="/images/about.jpg" imageAlt="About Us Image" title="Frequently Asked Questions" className="bg-white" />
       </section>
       <footer className="bg-gray-800 text-white p-5">
         <GradientFooter logoSrc="/images/logo.svg" logoAlt="Logo" logoText="Our Company" items={[{ label: 'Privacy Policy', onClick: () => {} }, { label: 'Terms of Service', onClick: () => {} }]} className="py-5" containerClassName="flex justify-around" gradientClassName="bg-gradient-to-r from-blue-500 to-green-500" logoClassName="h-10" itemsClassName="flex flex-col" itemClassName="py-2" buttonClassName="px-3 py-1 rounded bg-green-500" />
