@@ -4,7 +4,6 @@ import AnchorLink from '@/components/common/AnchorLink';
 import FooterLogo from '@/components/footer/FooterLogo';
 import GradientFooter from '@/components/footer/GradientFooter';
 import SimpleNavbar from '@/components/navigation/SimpleNavbar';
-
 const items = [
   { title: 'What is the product?', content: 'This is a brief description of the product.' },
   { title: 'How does it work?', content: 'This is a brief explanation of how the product functions.' },
@@ -12,7 +11,6 @@ const items = [
   { title: 'How to purchase?', content: 'Instructions on how to buy the product.' },
   { title: 'Contact support', content: 'Information on how to get support.' }
 ];
-
 export default function Home() {
   return (
     <div>
